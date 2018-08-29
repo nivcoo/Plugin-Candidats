@@ -1,0 +1,37 @@
+{
+  "name":"Candidats",
+  "admin_menus": {
+    "GLOBAL__CUSTOMIZE": {
+      "Candidats": {
+        "index": 1,
+        "icon": "trophy",
+        "menu": {
+          "Gérer les candidats": {
+            "icon": "shopping-basket",
+            "permission": "SHOP__ADMIN_MANAGE_ITEMS",
+            "route": "/admin/candidats"
+          },
+          "Resultats": {
+            "icon": "percent",
+            "permission": "SHOP__ADMIN_MANAGE_VOUCHERS",
+            "route": "/admin/candidats/result"
+          }
+        }
+      }
+    }
+  },
+  "author":"nivcoo",
+  "version":"1.0.0",
+  "apiID":0,
+  "useEvents":false,
+  "permissions" : {
+    "available" : [],
+    "default" : {
+      "0" : [],
+      "2" : []
+    }
+  },
+  "requirements" : {
+    "CMS" : "^1.4.0"
+  }
+}
